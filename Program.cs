@@ -122,7 +122,7 @@ try
 
                 break;
                 
-                // Permite multiplicar variosnumeros  introducidos por el usuario.
+                // Permite multiplicar varios numeros  introducidos por el usuario.
                 // El resultado comienza en 1 y se multiplica por cada número
                 // almacenado en la lista hasta completar la operación.
             case 3:
