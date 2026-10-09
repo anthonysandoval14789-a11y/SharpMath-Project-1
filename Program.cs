@@ -28,7 +28,11 @@ try
             Console.WriteLine("INVALID OPTION, SELECT AN OPTION FROM 1 TO 6:");
         }
 
+        // Permite sumar varios números introducido por el usuario.
+        // Primero solicita la cantidad de números, valida cada entrada,
+        // almacena los valores en una lista y finalmente calcula la suma. 
         switch (option)
+        
         {
             case 1:
                 int quantity;
@@ -68,7 +72,10 @@ try
                 Console.WriteLine($"TOTAL: {addition}");
 
                 break;
-
+                
+                // Permite restar varios números segun su orden en que los introduzcan.
+                // El primer número se utiliza como valor inicial y los siguiente
+                // se van restando hasta obtener el resultado final.
 
             case 2:
 
@@ -114,9 +121,10 @@ try
                 Console.WriteLine($"TOTAL:   {subtraction} ");
 
                 break;
-
-
-
+                
+                // Permite multiplicar variosnumeros  introducidos por el usuario.
+                // El resultado comienza en 1 y se multiplica por cada número
+                // almacenado en la lista hasta completar la operación.
             case 3:
 
                 int quantityToMultiply;
@@ -154,7 +162,10 @@ try
                 Console.WriteLine($"TOTAL: {multiplication}");
 
                 break;
-
+                
+            ///Aqui nos permite dividir varios numeros de forma consecutiva.
+            ///Valida que los divisores no sean cero para evitar una división
+            // inválida y muestra el resultado de la operación.
 
             case 4:
 
@@ -196,8 +207,11 @@ try
                 Console.WriteLine($"TOTAL: {division}");
 
                 break;
-
-
+                
+                //En este caso calcula lo que es la nota del estudiante
+                //Tomando encuenta, notas de entrega de tareas, examen, participación y proyecto.
+                /// Cada calificación tiene un porcentaje específico y, al finalizar,
+                /// Podemos ver, si el estudiante Aprobo o Reprobo.
 
             case 5:
 
@@ -256,7 +270,7 @@ try
 
 
             case 6:
-                //// Stops the calculator loop and exits the program
+                //// Permite al usuario salir de la calculadora.
                 
                 Console.WriteLine("EXITING THE PROGRAM...");
                 calculatorRunning = false;
