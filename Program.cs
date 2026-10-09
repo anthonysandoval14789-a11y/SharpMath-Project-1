@@ -11,7 +11,7 @@ try
 
     while (calculatorRunning)
     {
-        Console.WriteLine("====SharpMath====");
+        Console.WriteLine("====CALCULATOR====");
         Console.WriteLine("1.ADDITION");
         Console.WriteLine("2.SUBTRACTION");
         Console.WriteLine("3.MULTIPLICATION");
